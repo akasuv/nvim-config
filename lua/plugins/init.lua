@@ -6,11 +6,10 @@ return require('packer').startup(function(use)
 	use 'tpope/vim-surround'
 	use { 'neoclide/coc.nvim', branch = 'release' }
 	use 'glepnir/dashboard-nvim'
-	use {
-	  'nvim-telescope/telescope.nvim',
-  requires = { {'nvim-lua/plenary.nvim'} }
-}
-
-
+	use {'nvim-telescope/telescope.nvim',
+	  requires = { {'nvim-lua/plenary.nvim'} }
+		}
+	use {'preservim/nerdtree'}
+	use {'ryanoasis/vim-devicons'}
 end)
 
