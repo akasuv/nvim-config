@@ -2,6 +2,8 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
 
+	use 'sbdchd/neoformat'
+	use 'github/copilot.vim'
 	use 'wbthomason/packer.nvim'
 	use 'tpope/vim-surround'
 	use { 'neoclide/coc.nvim', branch = 'release' }
