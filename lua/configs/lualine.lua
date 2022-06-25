@@ -1,9 +1,9 @@
-local lualine = require('lualine')
+local lualine = require("lualine")
 
 local config = {
-  options = {
-    theme = 'nightfly',
-  },
+	options = {
+		theme = "nightfly",
+	},
 }
 
 lualine.setup(config)
